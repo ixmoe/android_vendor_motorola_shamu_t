@@ -89,7 +89,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shamu_t/proprietary/etc/sysconfig/whitelist_com.android.omadm.service.xml:system/etc/sysconfig/whitelist_com.android.omadm.service.xml \
     vendor/motorola/shamu_t/proprietary/etc/thermal-engine-shamu.conf:system/etc/thermal-engine-shamu.conf \
     vendor/motorola/shamu_t/proprietary/lib/hw/audio.motvr.default.so:system/lib/hw/audio.motvr.default.so \
-    vendor/motorola/shamu_t/proprietary/lib/hw/gps.msm8084.so:system/lib/hw/gps.msm8084.so \
     vendor/motorola/shamu_t/proprietary/lib/hw/sound_trigger.primary.shamu.so:system/lib/hw/sound_trigger.primary.shamu.so \
     vendor/motorola/shamu_t/proprietary/lib/libadspd-jni.so:system/lib/libadspd-jni.so \
     vendor/motorola/shamu_t/proprietary/lib/libadspd.so:system/lib/libadspd.so \
@@ -99,13 +98,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shamu_t/proprietary/lib/libdmjavaplugin.so:system/lib/libdmjavaplugin.so \
     vendor/motorola/shamu_t/proprietary/priv-app/DMService/lib/arm/libdmjavaplugin.so:system/priv-app/DMService/lib/arm/libdmjavaplugin.so \
     vendor/motorola/shamu_t/proprietary/lib/libflacencoder.so:system/lib/libflacencoder.so \
-    vendor/motorola/shamu_t/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/motorola/shamu_t/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/motorola/shamu_t/proprietary/app/ims/lib/arm/libimscamera_jni.so:system/app/ims/lib/arm/libimscamera_jni.so \
     vendor/motorola/shamu_t/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
     vendor/motorola/shamu_t/proprietary/app/ims/lib/arm/libimsmedia_jni.so:system/app/ims/lib/arm/libimsmedia_jni.so \
-    vendor/motorola/shamu_t/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/motorola/shamu_t/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/motorola/shamu_t/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/motorola/shamu_t/proprietary/lib/libmotaudioutils.so:system/lib/libmotaudioutils.so \
     vendor/motorola/shamu_t/proprietary/lib/librecoglib.so:system/lib/librecoglib.so \
