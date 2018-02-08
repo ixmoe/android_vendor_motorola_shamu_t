@@ -86,7 +86,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shamu_t/proprietary/etc/permissions/rcsservice.xml:system/etc/permissions/rcsservice.xml \
     vendor/motorola/shamu_t/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/motorola/shamu_t/proprietary/etc/sysconfig/whitelist_com.android.omadm.service.xml:system/etc/sysconfig/whitelist_com.android.omadm.service.xml \
-    vendor/motorola/shamu_t/proprietary/etc/thermal-engine-shamu.conf:system/etc/thermal-engine-shamu.conf \
+    vendor/motorola/shamu_t/proprietary/etc/thermal-engine-shamu_t.conf:system/etc/thermal-engine-shamu_t.conf \
     vendor/motorola/shamu_t/proprietary/lib/hw/audio.motvr.default.so:system/lib/hw/audio.motvr.default.so \
     vendor/motorola/shamu_t/proprietary/lib/hw/gps.msm8084.so:system/lib/hw/gps.msm8084.so \
     vendor/motorola/shamu_t/proprietary/lib/hw/sound_trigger.primary.shamu.so:system/lib/hw/sound_trigger.primary.shamu.so \
