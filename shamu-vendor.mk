@@ -1,4 +1,4 @@
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2017-2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -74,7 +74,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shamu_t/proprietary/etc/firmware/vpu.mbn:system/etc/firmware/vpu.mbn \
     vendor/motorola/shamu_t/proprietary/etc/firmware/vpu.mdt:system/etc/firmware/vpu.mdt \
     vendor/motorola/shamu_t/proprietary/etc/flp.conf:system/etc/flp.conf \
-    vendor/motorola/shamu_t/proprietary/etc/fmas_eq.dat:system/etc/fmas_eq.dat \
     vendor/motorola/shamu_t/proprietary/etc/permissions/com.android.omadm.service.xml:system/etc/permissions/com.android.omadm.service.xml \
     vendor/motorola/shamu_t/proprietary/etc/permissions/com.motorola.DirectedSMSProxy.xml:system/etc/permissions/com.motorola.DirectedSMSProxy.xml \
     vendor/motorola/shamu_t/proprietary/etc/permissions/com.motorola.triggerenroll.xml:system/etc/permissions/com.motorola.triggerenroll.xml \
@@ -88,7 +87,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shamu_t/proprietary/etc/sysconfig/whitelist_com.android.omadm.service.xml:system/etc/sysconfig/whitelist_com.android.omadm.service.xml \
     vendor/motorola/shamu_t/proprietary/etc/thermal-engine-shamu_t.conf:system/etc/thermal-engine-shamu_t.conf \
     vendor/motorola/shamu_t/proprietary/lib/hw/audio.motvr.default.so:system/lib/hw/audio.motvr.default.so \
-    vendor/motorola/shamu_t/proprietary/lib/hw/sound_trigger.primary.shamu.so:system/lib/hw/sound_trigger.primary.shamu.so \
+    vendor/motorola/shamu_t/proprietary/vendor/lib/hw/sound_trigger.primary.shamu.so:system/vendor/lib/hw/sound_trigger.primary.shamu.so \
     vendor/motorola/shamu_t/proprietary/lib/libadspd-jni.so:system/lib/libadspd-jni.so \
     vendor/motorola/shamu_t/proprietary/lib/libadspd.so:system/lib/libadspd.so \
     vendor/motorola/shamu_t/proprietary/lib/libdetectmodem.so:system/lib/libdetectmodem.so \
@@ -106,8 +105,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shamu_t/proprietary/lib/librecoglib.so:system/lib/librecoglib.so \
     vendor/motorola/shamu_t/proprietary/lib/libsupermodel.so:system/lib/libsupermodel.so \
     vendor/motorola/shamu_t/proprietary/lib/libtrainingcheck.so:system/lib/libtrainingcheck.so \
-    vendor/motorola/shamu_t/proprietary/lib/soundfx/libfmas.so:system/lib/soundfx/libfmas.so \
-    vendor/motorola/shamu_t/proprietary/lib/soundfx/libspeakerbundle.so:system/lib/soundfx/libspeakerbundle.so \
+    vendor/motorola/shamu_t/proprietary/vendor/lib/soundfx/libspeakerbundle.so:system/vendor/lib/soundfx/libspeakerbundle.so \
     vendor/motorola/shamu_t/proprietary/vendor/firmware/VRGain.bin:system/vendor/firmware/VRGain.bin \
     vendor/motorola/shamu_t/proprietary/vendor/firmware/a420_pfp.fw:system/vendor/firmware/a420_pfp.fw \
     vendor/motorola/shamu_t/proprietary/vendor/firmware/a420_pm4.fw:system/vendor/firmware/a420_pm4.fw \
