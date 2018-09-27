@@ -37,7 +37,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shamu_t/proprietary/bin/radish:system/bin/radish \
     vendor/motorola/shamu_t/proprietary/bin/stm401:system/bin/stm401 \
     vendor/motorola/shamu_t/proprietary/bin/tcmd_mini:system/bin/tcmd_mini \
-    vendor/motorola/shamu_t/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/motorola/shamu_t/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/motorola/shamu_t/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/motorola/shamu_t/proprietary/bin/usbhub_init:system/bin/usbhub_init \
@@ -85,8 +84,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shamu_t/proprietary/etc/permissions/rcsservice.xml:system/etc/permissions/rcsservice.xml \
     vendor/motorola/shamu_t/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/motorola/shamu_t/proprietary/etc/sysconfig/whitelist_com.android.omadm.service.xml:system/etc/sysconfig/whitelist_com.android.omadm.service.xml \
-    vendor/motorola/shamu_t/proprietary/etc/thermal-engine-shamu_t.conf:system/etc/thermal-engine-shamu_t.conf \
     vendor/motorola/shamu_t/proprietary/lib/hw/audio.motvr.default.so:system/lib/hw/audio.motvr.default.so \
+    vendor/motorola/shamu_t/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/motorola/shamu_t/proprietary/vendor/lib/hw/sound_trigger.primary.shamu.so:system/vendor/lib/hw/sound_trigger.primary.shamu.so \
     vendor/motorola/shamu_t/proprietary/lib/libadspd-jni.so:system/lib/libadspd-jni.so \
     vendor/motorola/shamu_t/proprietary/lib/libadspd.so:system/lib/libadspd.so \
